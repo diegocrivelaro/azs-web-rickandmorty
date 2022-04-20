@@ -17,7 +17,12 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["react", "eslint-plugin-import-helpers", "prettier"],
+  "plugins": [
+    "react",
+    "eslint-plugin-prettier",
+    "eslint-plugin-import-helpers",
+    "prettier"
+  ],
   "rules": {
     "camelcase": "off",
     "import/no-unresolved": "error",
