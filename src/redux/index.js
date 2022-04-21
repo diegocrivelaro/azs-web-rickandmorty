@@ -1,3 +1,5 @@
+/* eslint-disable default-case */
+/* eslint-disable default-param-last */
 import { configureStore } from "@reduxjs/toolkit";
 
 const initialState = {

@@ -1,3 +1,4 @@
+/* eslint-disable no-await-in-loop */
 import { gql, request } from "graphql-request";
 
 export const getEpisodes = () => {
@@ -19,7 +20,7 @@ export const getEpisodes = () => {
 
     const episodes = [];
 
-    for (let i = 1; i <= response.episodes.info.pages; i++) {
+    for (let i = 1; i <= response.episodes.info.pages; i += 1) {
       const query = gql`
         {
           episodes(page: ${i}) {
