@@ -55,3 +55,17 @@ export const getEpisodes = () => {
     });
   };
 };
+
+export const setFavorite = (favorites) => {
+  return {
+    type: "SET_FAVORITE",
+    payload: favorites,
+  };
+};
+
+export const setChecked = (checked) => {
+  return {
+    type: "SET_CHECKED",
+    payload: checked,
+  };
+};
