@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <div className="w-screen h-230 lg:h-100 bg-black-primary shadow-18-4">
+    <div className="w-full h-230 lg:h-100 bg-black-primary shadow-18-4">
       <div className="container h-full mx-auto flex gap-14 lg:gap-0 flex-col lg:flex-row items-center justify-center lg:justify-between">
         <div>
           <img
