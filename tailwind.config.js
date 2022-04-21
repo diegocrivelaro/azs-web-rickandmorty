@@ -90,6 +90,7 @@ module.exports = {
       },
       boxShadow: {
         "18-4": "0 0 18px 4px rgba(0, 0, 0, 0.6)",
+        "8-2": "0px 0px 8px 2px rgba(0, 0, 0, 0.2)",
       },
     },
   },
