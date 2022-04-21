@@ -30,7 +30,7 @@ export default function EpisodeCard() {
 
         return (
           <div className="w-500 h-226 mx-auto flex rounded-md shadow-8-2">
-            <div className="h-full">
+            <div className="w-204 h-full">
               <img
                 className="w-full h-full object-cover rounded-md"
                 src={
@@ -42,7 +42,7 @@ export default function EpisodeCard() {
               />
             </div>
 
-            <div className="px-14 py-14">
+            <div className="w-304 px-14 py-14">
               <h3 className="font-poppins text-28 font-semibold text-gray-600">
                 {episode.name}
               </h3>
